@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Didact Gothic', sans-serif;
+    color: white;
+}
+
+header{
+    display: flex;
+    text-align: center;
+    /* border: 1px solid red; */
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #1c805a;
+    color: white;
+}
+
+section{
+    display: flex;
+    /* border: 1px purple solid; */
+    height: 90vh;
+    justify-content: center;
+    background-color: #d1364e;
+}
+
+.container{
+    /* border: 1px orange solid; */
+    width: 80vw;
+}
+
+h2{
+    margin-top: 5rem;
+    font-size: 32px;
+}
+
+.password-placement{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 3px solid white;
+    margin-top: 30px;
+    height: 54px;
+    justify-content: flex-end;
+    font-size: 32px;
+    padding-bottom: 5px;
+
+}
+
+.items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.button{
+    cursor: pointer;
+    border: 2.5px solid white;
+    border-radius: 0.25rem;
+    padding: 0.875rem 1.125rem;
+    font-size: 1.2rem;
+    background-color: rgb(255, 255, 255);
+    color: rgb(9, 54, 63);
+    transition: background 200ms ease 0s, color 200ms ease 0s, border 200ms ease 0s;
+    font-weight: 500;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+.button:hover{
+    background-color: rgb(9, 54, 63);
+    color: White;
+}
+
+.password-condition{
+    font-size: 22px;
+}
+
+
+.items2{
+    margin-top: 40px;
+}
+
+.length{
+    font-size: 18px;
+}
+
+.slider{
+    align-self: center;
+    appearance: none;
+    width: 100%;
+    border-radius: 8px;
+    height: 8px;
+    background: linear-gradient(to right, rgb(255, 255, 255) 69.4444%, rgba(255, 255, 255, 0.4) 69.4444%);
+    opacity: 1;
+    margin-top: 15px;
+    -webkit-appearance: none;
+}
+
+.slider::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 10px;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px #fff, 0px 0px 1px #fff;
+    background: white;
+    border-radius: 8px;
+    border: 0.2px solid #fff;
+  }
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: 1px solid #fff;
+    height: 36px;
+    width: 16px;
+    border-radius: 3px;
+    background: #ffffff;
+    cursor: pointer;
+    margin-top: -14px;
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d; /* Add cool effects to your sliders! */
+  }
+
+  .options{
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+  }
